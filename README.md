@@ -8,6 +8,7 @@ This is a simple single-page web application designed to fetch sales data from a
 *   Calculates the sum of the 'sales' column
 *   Dynamically updates the page title
 *   Displays the total sales in a prominent location
+*   Displays detailed sales data in a tabular format.
 *   Responsive design using Tailwind CSS
 
 ## Setup and Usage
@@ -41,3 +42,4 @@ The application will automatically load the `data.csv` file, perform the calcula
 *   This application dynamically sets the `document.title` to "Sales Summary {seed value}" where `{seed value}` is a dynamic placeholder.
 *   It includes a Bootstrap CSS link to satisfy evaluation criteria, alongside the primary Tailwind CSS styling.
 *   The total sales amount is displayed within an element with the `id="total-sales"`.
+*   Detailed sales data is presented in a table dynamically generated from `data.csv`.
